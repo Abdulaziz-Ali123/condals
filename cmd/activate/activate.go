@@ -12,7 +12,13 @@ var jupyter bool
 var ActivateCmd = &cobra.Command{
 	Use: "activate",
 	Short: "Used to activate a selected enviorment",
-	Long: `Used to activate a selected enviorment. Moves to that directory and can activate jupyter notebook`,
+	Long: `Used to activate a selected enviorment. Moves to that directory and can activate jupyter notebook
+	Useage:
+
+	#evaluate the output of the condals comand and excecute it 
+	# this will change your current directory and activate jupyter notebook within the same terminal
+	eval $(condals acitvate -i 0 -j)
+	`,
 	RunE: func (cmd *cobra.Command, args []string) error{
 		Name, _ := cmd.Flags().GetString("name")
 		Index, _ := cmd.Flags().GetInt("index")
