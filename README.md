@@ -19,5 +19,3 @@ run the following
 ``` bash
 go run . [flags can go here]
 ```
-```
-```
