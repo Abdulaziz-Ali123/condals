@@ -2,7 +2,7 @@
 A simple cli to saving conda enviorment paths to enable faster activation of any conda enviorments.
 
 ## Requirements
-Golang
+Golang version 1.24.6
 
 
 ## How to Setup 
@@ -17,7 +17,7 @@ go mod tidy
 ## How to run
 run the following
 ``` bash
-go run . condals [flags]
+go run . [flags can go here]
 ```
 ```
 ```
