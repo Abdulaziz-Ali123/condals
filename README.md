@@ -26,7 +26,7 @@ After ensuring the program runs properly
 for linux run the following in your terminal:
 ``` bash
 go build builds/condals
-sudo mv buils/condals /usr/local/bin/ 
+sudo mv builds/condals /usr/local/bin/ 
 ```
 
 Now you will be able to use the `condals` command from anywhere in your terminal
