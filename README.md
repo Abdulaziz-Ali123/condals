@@ -15,9 +15,21 @@ go mod tidy
 ```
 
 ## How to run
-run the following
+Run the following in your terminal:
 ``` bash
 go run . [flags can go here]
 ```
 ```
 ```
+
+
+## How to Build and Add to paths
+After ensuring the program runs properly
+
+for linux run the following in your terminal:
+``` bash
+go build builds/condals
+sudo mv buils/condals /usr/local/bin/ 
+```
+
+Now you will be able to use the `condals` command from anywhere in your terminal
