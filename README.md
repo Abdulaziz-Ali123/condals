@@ -30,3 +30,10 @@ sudo mv builds/condals /usr/local/bin/
 ```
 
 Now you will be able to use the `condals` command from anywhere in your terminal
+
+## ToDo
+
+- create edit function to update evn names and paths 
+- make instructions for both mac and windows
+- make first release for condals
+
