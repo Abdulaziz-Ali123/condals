@@ -19,9 +19,6 @@ Run the following in your terminal:
 ``` bash
 go run . [flags can go here]
 ```
-```
-```
-
 
 ## How to Build and Add to paths
 After ensuring the program runs properly
